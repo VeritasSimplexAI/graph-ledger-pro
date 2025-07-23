@@ -52,6 +52,19 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// Aidagara brand colors
+				'ai-services': {
+					DEFAULT: 'hsl(var(--ai-services))',
+					foreground: 'hsl(var(--ai-services-foreground))'
+				},
+				'data-integration': {
+					DEFAULT: 'hsl(var(--data-integration))',
+					foreground: 'hsl(var(--data-integration-foreground))'
+				},
+				'graph-accent': {
+					DEFAULT: 'hsl(var(--graph-accent))',
+					foreground: 'hsl(var(--graph-accent-foreground))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -67,6 +80,16 @@ export default {
 				lg: 'var(--radius)',
 				md: 'calc(var(--radius) - 2px)',
 				sm: 'calc(var(--radius) - 4px)'
+			},
+			backgroundImage: {
+				'gradient-hero': 'var(--gradient-hero)',
+				'gradient-graph': 'var(--gradient-graph)',
+				'gradient-ai': 'var(--gradient-ai)'
+			},
+			boxShadow: {
+				'graph': 'var(--shadow-graph)',
+				'card-aidagara': 'var(--shadow-card)',
+				'glow': 'var(--glow-primary)'
 			},
 			keyframes: {
 				'accordion-down': {

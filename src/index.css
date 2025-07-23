@@ -17,24 +17,44 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Aidagara Brand Colors - Based on Architecture Diagrams */
+    --primary: 216 88% 28%;  /* Deep blue for orchestration */
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 249 58% 71%;  /* Light purple for presentation */
+    --secondary-foreground: 0 0% 100%;
+
+    --ai-services: 4 85% 58%;  /* Red for AI services */
+    --ai-services-foreground: 0 0% 100%;
+
+    --data-integration: 142 71% 45%;  /* Green for data integration */
+    --data-integration-foreground: 0 0% 100%;
+
+    --graph-accent: 216 100% 50%;  /* Bright blue for graph connections */
+    --graph-accent-foreground: 0 0% 100%;
 
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 249 58% 71%;
+    --accent-foreground: 0 0% 100%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 4 85% 58%;
+    --destructive-foreground: 0 0% 100%;
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --ring: 216 88% 28%;
+
+    /* Gradients for beautiful effects */
+    --gradient-hero: linear-gradient(135deg, hsl(216 88% 28%), hsl(249 58% 71%));
+    --gradient-graph: linear-gradient(45deg, hsl(216 100% 50%), hsl(142 71% 45%));
+    --gradient-ai: linear-gradient(90deg, hsl(4 85% 58%), hsl(216 88% 28%));
+    
+    /* Shadows and glows */
+    --shadow-graph: 0 20px 40px -10px hsl(216 88% 28% / 0.3);
+    --shadow-card: 0 10px 30px -5px hsl(216 88% 28% / 0.1);
+    --glow-primary: 0 0 30px hsl(216 100% 50% / 0.3);
 
     --radius: 0.5rem;
 
